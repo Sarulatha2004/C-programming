@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i,j,k,n;
+    printf("Enter n& j:");
+    scanf("%d %d",&n,&j);
+    k=1;
+    for(i=1;i<=n;i++)
+    {
+        k=j*i;
+        printf("%d*%d=%d\n",i,j,k);
+    }
+
+    return 0;
+}
