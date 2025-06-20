@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int P,R,T,SI;
+    printf("Enter Principle:");
+    scanf("%d",&P);
+    printf("Enter Rate of Interest:");
+    scanf("%d",&R);
+    printf("Enter Time(Year):");
+    scanf("%d",&T);
+    
+    
+    SI=(P*R*T)/100;
+    printf("The Simple Interest is %d",SI);
+
+    return 0;
+}
